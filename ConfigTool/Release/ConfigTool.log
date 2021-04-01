@@ -1,0 +1,70 @@
+﻿  stdafx.cpp
+  ASbad_Dlg.cpp
+  AScd_Dlg.cpp
+  ASeid_Dlg.cpp
+  ASgc_Dlg.cpp
+  AShbm_Dlg.cpp
+  ASosa_Dlg.cpp
+  ASpg_Dlg.cpp
+  ASrdc_Dlg.cpp
+  ASrdc_Dlgnew.cpp
+  ASrdc_Dlgone.cpp
+  ASrdc_Dlgtwo.cpp
+  ASsadr_Dlg.cpp
+  ASsa_Dlg.cpp
+  ASser_Dlg.cpp
+  ASsosa_Dlg.cpp
+  ASssr_Dlg.cpp
+  AStac_Dlg.cpp
+  ATCMD.cpp
+  ComPortEx.cpp
+  ConfigTool.cpp
+  正在编译...
+  ConfigToolDlg.cpp
+  DCap_Dlg.cpp
+  DCgc_Dlg.cpp
+  DChrm_Dlg.cpp
+  DCowh_Dlg.cpp
+  DCpcs_Dlg.cpp
+  DCpsdls_Dlg.cpp
+  DCspw_Dlg.cpp
+  DCta_Dlg.cpp
+  DEBUGLOG_Dlg.cpp
+  DevHound.cpp
+  IAdips_Dlg.cpp
+  IAdops_Dlg.cpp
+  IAepsm_Dlg.cpp
+  IAips_Dlg.cpp
+  IDSavis_Dlg.cpp
+  IDSidbvs_Dlg.cpp
+  IDSvims_Dlg.cpp
+  MdbControl.cpp
+  MyBaseSample.cpp
+  正在编译...
+  MyTabBaseDlg.cpp
+  MYWORK.cpp
+MYWORK.cpp(607): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+MYWORK.cpp(612): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+MYWORK.cpp(619): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+  OScss_Dlg.cpp
+  OSer_Dlg.cpp
+  OSglsc_Dlg.cpp
+  OSgs_Dlg.cpp
+  OShmc_Dlg.cpp
+  OSrto_Dlg.cpp
+  OSucota_Dlg.cpp
+  OSudf_Dlg.cpp
+  OSwl_Dlg.cpp
+  PopMessage_Dlg.cpp
+  PRRfcofri_Dlg.cpp
+  PRRfri_Dlg.cpp
+  SCbsi_Dlg.cpp
+  SCbsri_Dlg.cpp
+  SCqss_Dlg.cpp
+  TESTLIST_Dlg.cpp
+  正在生成代码
+  已完成代码的生成
+  ConfigTool.vcxproj -> D:\WorkSpace\ConfigTool\Release\ConfigTool_V2.04_20210401.exe

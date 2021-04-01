@@ -1,0 +1,43 @@
+0.	---------------------------CHECK AT PORT INSERT----------------------
+1.	CHECK AT PORT INSERT SUCCESS
+2.	---------------------------进入工程模式---------------------------
+3.	KM Goldie power on
+
+4.	PHONE_AT: COMPORT_WRITE  15 : AT+FACTTEST
+5.	PHONE_AT: COMPORT_READ  15 : AT+FACTTEST
++OK
+
+6.	PHONE_AT: KeyValue "OK", Is Matched : AT+FACTTEST
++OK
+
+7.	PHONE_AT: COMPORT_WRITE  15 : AT+GCRESOURCE
+8.	PHONE_AT: COMPORT_READ  15 : AT+GCRESOURCE
++OK
+
+9.	PHONE_AT: KeyValue "OK", Is Matched : AT+GCRESOURCE
++OK
+
+10.	-----------------------------READ BSN TEST---------------------------
+11.	PHONE_AT: COMPORT_WRITE  15 : AT+BSN?
+12.	PHONE_AT: COMPORT_READ  15 : AT+BSN?
+H3WBDCL526000001
+OK
+
+13.	PHONE_AT: KeyValue "BSN", Is Matched : AT+BSN?
+H3WBDCL526000001
+OK
+
+14.	---------------------------LOOP_REBOOT---------------------------
+15.	KM Goldie power on
+
+16.	KM Goldie power on
+
+17.	30.184999
+18.	KM Goldie power on
+
+19.	KM Goldie power on
+
+20.	60.365002
+21.	------------------------------------------------------------------------
+22.	Save Run Log ...
+23.	------------------------------------------------------------------------

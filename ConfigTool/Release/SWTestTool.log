@@ -1,0 +1,146 @@
+﻿生成启动时间为 2020\12\28 星期一 17:42:33。
+     1>项目“D:\WorkSpace\HYN001ConfigTool\SWTestTool\SWTestTool.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\SWTestTool.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\SWTestTool.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\SWTESTTOOL_V1.01_20201031_PowCutOff.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\SWTESTTOOL_V1.01_20201031_PowCutOff.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ASbad_Dlg.cpp AScd_Dlg.cpp ASeid_Dlg.cpp ASgc_Dlg.cpp AShbm_Dlg.cpp ASosa_Dlg.cpp ASpg_Dlg.cpp ASrdc_Dlg.cpp ASsadr_Dlg.cpp ASsa_Dlg.cpp ASser_Dlg.cpp ASsosa_Dlg.cpp ASssr_Dlg.cpp AStac_Dlg.cpp ATCMD.cpp ComPortEx.cpp DCap_Dlg.cpp DCgc_Dlg.cpp DChrm_Dlg.cpp DCowh_Dlg.cpp DCpcs_Dlg.cpp DCpsdls_Dlg.cpp DCspw_Dlg.cpp DCta_Dlg.cpp DEBUGLOG_Dlg.cpp DevHound.cpp EquipmentSet.cpp GPIBOperat.cpp IAdips_Dlg.cpp IAdops_Dlg.cpp IAepsm_Dlg.cpp IAips_Dlg.cpp IDSavis_Dlg.cpp IDSidbvs_Dlg.cpp IDSvims_Dlg.cpp MdbControl.cpp MYWORK.cpp m_Para_Dlg.cpp OScss_Dlg.cpp OSer_Dlg.cpp OSglsc_Dlg.cpp OSgs_Dlg.cpp OShmc_Dlg.cpp OSrto_Dlg.cpp OSucota_Dlg.cpp OSudf_Dlg.cpp OSwl_Dlg.cpp PowerControl.cpp PRRfcofri_Dlg.cpp PRRfri_Dlg.cpp SCbsi_Dlg.cpp SCbsri_Dlg.cpp SCqss_Dlg.cpp SWTestTool.cpp SWTestToolDlg.cpp TESTLIST_Dlg.cpp
+         ASbad_Dlg.cpp
+         AScd_Dlg.cpp
+         ASeid_Dlg.cpp
+         ASgc_Dlg.cpp
+         AShbm_Dlg.cpp
+         ASosa_Dlg.cpp
+         ASpg_Dlg.cpp
+         ASrdc_Dlg.cpp
+         ASsadr_Dlg.cpp
+         ASsa_Dlg.cpp
+         ASser_Dlg.cpp
+         ASsosa_Dlg.cpp
+         ASssr_Dlg.cpp
+         AStac_Dlg.cpp
+         ATCMD.cpp
+         ComPortEx.cpp
+         DCap_Dlg.cpp
+         DCgc_Dlg.cpp
+         DChrm_Dlg.cpp
+         DCowh_Dlg.cpp
+         正在编译...
+         DCpcs_Dlg.cpp
+         DCpsdls_Dlg.cpp
+         DCspw_Dlg.cpp
+         DCta_Dlg.cpp
+         DEBUGLOG_Dlg.cpp
+         DevHound.cpp
+         EquipmentSet.cpp
+         GPIBOperat.cpp
+         IAdips_Dlg.cpp
+         IAdops_Dlg.cpp
+         IAepsm_Dlg.cpp
+         IAips_Dlg.cpp
+         IDSavis_Dlg.cpp
+         IDSidbvs_Dlg.cpp
+         IDSvims_Dlg.cpp
+         MdbControl.cpp
+         MYWORK.cpp
+         m_Para_Dlg.cpp
+         OScss_Dlg.cpp
+         OSer_Dlg.cpp
+         正在编译...
+         OSglsc_Dlg.cpp
+         OSgs_Dlg.cpp
+         OShmc_Dlg.cpp
+         OSrto_Dlg.cpp
+         OSucota_Dlg.cpp
+         OSudf_Dlg.cpp
+         OSwl_Dlg.cpp
+         PowerControl.cpp
+         PRRfcofri_Dlg.cpp
+         PRRfri_Dlg.cpp
+         SCbsi_Dlg.cpp
+         SCbsri_Dlg.cpp
+         SCqss_Dlg.cpp
+         SWTestTool.cpp
+         SWTestToolDlg.cpp
+     1>SWTestToolDlg.cpp(815): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>SWTestToolDlg.cpp(821): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         TESTLIST_Dlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\SWTestTool.res" SWTestTool.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WorkSpace\HYN001ConfigTool\Release\SWTESTTOOL_V1.01_20201031_PowCutOff.exe" /INCREMENTAL:NO /NOLOGO "lib/gpib-32.obj" /MANIFEST /ManifestFile:"Release\SWTESTTOOL_V1.01_20201031_PowCutOff.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\WorkSpace\HYN001ConfigTool\Release\SWTESTTOOL_V1.01_20201031_PowCutOff.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WorkSpace\HYN001ConfigTool\Release\SWTESTTOOL_V1.01_20201031_PowCutOff.lib" /MACHINE:X86 Release\SWTestTool.res
+         Release\ASbad_Dlg.obj
+         Release\AScd_Dlg.obj
+         Release\ASeid_Dlg.obj
+         Release\ASgc_Dlg.obj
+         Release\AShbm_Dlg.obj
+         Release\ASosa_Dlg.obj
+         Release\ASpg_Dlg.obj
+         Release\ASrdc_Dlg.obj
+         Release\ASsadr_Dlg.obj
+         Release\ASsa_Dlg.obj
+         Release\ASser_Dlg.obj
+         Release\ASsosa_Dlg.obj
+         Release\ASssr_Dlg.obj
+         Release\AStac_Dlg.obj
+         Release\ATCMD.obj
+         Release\ComPortEx.obj
+         Release\DCap_Dlg.obj
+         Release\DCgc_Dlg.obj
+         Release\DChrm_Dlg.obj
+         Release\DCowh_Dlg.obj
+         Release\DCpcs_Dlg.obj
+         Release\DCpsdls_Dlg.obj
+         Release\DCspw_Dlg.obj
+         Release\DCta_Dlg.obj
+         Release\DEBUGLOG_Dlg.obj
+         Release\DevHound.obj
+         Release\EquipmentSet.obj
+         Release\GPIBOperat.obj
+         Release\IAdips_Dlg.obj
+         Release\IAdops_Dlg.obj
+         Release\IAepsm_Dlg.obj
+         Release\IAips_Dlg.obj
+         Release\IDSavis_Dlg.obj
+         Release\IDSidbvs_Dlg.obj
+         Release\IDSvims_Dlg.obj
+         Release\MdbControl.obj
+         Release\MYWORK.obj
+         Release\m_Para_Dlg.obj
+         Release\OScss_Dlg.obj
+         Release\OSer_Dlg.obj
+         Release\OSglsc_Dlg.obj
+         Release\OSgs_Dlg.obj
+         Release\OShmc_Dlg.obj
+         Release\OSrto_Dlg.obj
+         Release\OSucota_Dlg.obj
+         Release\OSudf_Dlg.obj
+         Release\OSwl_Dlg.obj
+         Release\PowerControl.obj
+         Release\PRRfcofri_Dlg.obj
+         Release\PRRfri_Dlg.obj
+         Release\SCbsi_Dlg.obj
+         Release\SCbsri_Dlg.obj
+         Release\SCqss_Dlg.obj
+         Release\SWTestTool.obj
+         Release\SWTestToolDlg.obj
+         Release\stdafx.obj
+         Release\TESTLIST_Dlg.obj
+         正在生成代码
+         已完成代码的生成
+         SWTestTool.vcxproj -> D:\WorkSpace\HYN001ConfigTool\Release\SWTESTTOOL_V1.01_20201031_PowCutOff.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\WorkSpace\HYN001ConfigTool\Release\SWTESTTOOL_V1.01_20201031_PowCutOff.exe;#1" /manifest Release\SWTESTTOOL_V1.01_20201031_PowCutOff.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\SWTestTool.unsuccessfulbuild”。
+         正在对“Release\SWTestTool.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\WorkSpace\HYN001ConfigTool\SWTestTool\SWTestTool.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.15

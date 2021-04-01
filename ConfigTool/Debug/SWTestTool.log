@@ -1,0 +1,85 @@
+﻿生成启动时间为 2021\1\15 星期五 15:51:50。
+     1>项目“D:\WorkSpace\HYN001ConfigTool\SWTestTool\SWTestTool.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\SWTestTool.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0804" /IDebug\ /nologo /fo"Debug\SWTestTool.res" SWTestTool.rc 
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\WorkSpace\HYN001ConfigTool\Debug\SWTestTool.exe" /INCREMENTAL /NOLOGO "lib/gpib-32.obj" /MANIFEST /ManifestFile:"Debug\SWTestTool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\WorkSpace\HYN001ConfigTool\Debug\SWTestTool.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\WorkSpace\HYN001ConfigTool\Debug\SWTestTool.lib" /MACHINE:X86 Debug\SWTestTool.res
+         Debug\SWTestTool.exe.embed.manifest.res
+         Debug\ASbad_Dlg.obj
+         Debug\AScd_Dlg.obj
+         Debug\ASeid_Dlg.obj
+         Debug\ASgc_Dlg.obj
+         Debug\AShbm_Dlg.obj
+         Debug\ASosa_Dlg.obj
+         Debug\ASpg_Dlg.obj
+         Debug\ASrdc_Dlg.obj
+         Debug\ASsadr_Dlg.obj
+         Debug\ASsa_Dlg.obj
+         Debug\ASser_Dlg.obj
+         Debug\ASsosa_Dlg.obj
+         Debug\ASssr_Dlg.obj
+         Debug\AStac_Dlg.obj
+         Debug\ATCMD.obj
+         Debug\ComPortEx.obj
+         Debug\DCap_Dlg.obj
+         Debug\DCgc_Dlg.obj
+         Debug\DChrm_Dlg.obj
+         Debug\DCowh_Dlg.obj
+         Debug\DCpcs_Dlg.obj
+         Debug\DCpsdls_Dlg.obj
+         Debug\DCspw_Dlg.obj
+         Debug\DCta_Dlg.obj
+         Debug\DEBUGLOG_Dlg.obj
+         Debug\DevHound.obj
+         Debug\EquipmentSet.obj
+         Debug\GPIBOperat.obj
+         Debug\IAdips_Dlg.obj
+         Debug\IAdops_Dlg.obj
+         Debug\IAepsm_Dlg.obj
+         Debug\IAips_Dlg.obj
+         Debug\IDSavis_Dlg.obj
+         Debug\IDSidbvs_Dlg.obj
+         Debug\IDSvims_Dlg.obj
+         Debug\MdbControl.obj
+         Debug\MYWORK.obj
+         Debug\m_Para_Dlg.obj
+         Debug\OScss_Dlg.obj
+         Debug\OSer_Dlg.obj
+         Debug\OSglsc_Dlg.obj
+         Debug\OSgs_Dlg.obj
+         Debug\OShmc_Dlg.obj
+         Debug\OSrto_Dlg.obj
+         Debug\OSucota_Dlg.obj
+         Debug\OSudf_Dlg.obj
+         Debug\OSwl_Dlg.obj
+         Debug\PowerControl.obj
+         Debug\PRRfcofri_Dlg.obj
+         Debug\PRRfri_Dlg.obj
+         Debug\SCbsi_Dlg.obj
+         Debug\SCbsri_Dlg.obj
+         Debug\SCqss_Dlg.obj
+         Debug\SWTestTool.obj
+         Debug\SWTestToolDlg.obj
+         Debug\stdafx.obj
+         Debug\TESTLIST_Dlg.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\SWTestTool.exe.embed.manifest" /manifest Debug\SWTestTool.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         SWTestTool.vcxproj -> D:\WorkSpace\HYN001ConfigTool\Debug\SWTestTool.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\SWTestTool.unsuccessfulbuild”。
+         正在对“Debug\SWTestTool.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\WorkSpace\HYN001ConfigTool\SWTestTool\SWTestTool.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.89

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1BB0FE36-3132-4E73-9806-EB50229E7479}</ProjectGuid>
+    <RootNamespace>ConfigTool</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>ConfigTool_V1.0_20210127</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>ConfigTool_V2.04_20210401</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\HUIYE300x93.bmp" />
+    <None Include="res\Hymost.ico" />
+    <None Include="res\ConfigTool.ico" />
+    <None Include="res\ConfigTool.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASbad_Dlg.h" />
+    <ClInclude Include="AScd_Dlg.h" />
+    <ClInclude Include="ASeid_Dlg.h" />
+    <ClInclude Include="ASgc_Dlg.h" />
+    <ClInclude Include="AShbm_Dlg.h" />
+    <ClInclude Include="ASosa_Dlg.h" />
+    <ClInclude Include="ASpg_Dlg.h" />
+    <ClInclude Include="ASrdc_Dlg.h" />
+    <ClInclude Include="ASrdc_Dlgnew.h" />
+    <ClInclude Include="ASrdc_Dlgone.h" />
+    <ClInclude Include="ASrdc_Dlgtwo.h" />
+    <ClInclude Include="ASsadr_Dlg.h" />
+    <ClInclude Include="ASsa_Dlg.h" />
+    <ClInclude Include="ASser_Dlg.h" />
+    <ClInclude Include="ASsosa_Dlg.h" />
+    <ClInclude Include="ASssr_Dlg.h" />
+    <ClInclude Include="AStac_Dlg.h" />
+    <ClInclude Include="ATCMD.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="ComPortEx.h" />
+    <ClInclude Include="ConfigTool.h" />
+    <ClInclude Include="ConfigToolDlg.h" />
+    <ClInclude Include="DCap_Dlg.h" />
+    <ClInclude Include="DCgc_Dlg.h" />
+    <ClInclude Include="DChrm_Dlg.h" />
+    <ClInclude Include="DCowh_Dlg.h" />
+    <ClInclude Include="DCpcs_Dlg.h" />
+    <ClInclude Include="DCpsdls_Dlg.h" />
+    <ClInclude Include="DCspw_Dlg.h" />
+    <ClInclude Include="DCta_Dlg.h" />
+    <ClInclude Include="DEBUGLOG_Dlg.h" />
+    <ClInclude Include="DevHound.h" />
+    <ClInclude Include="ExcelOperate_DLL.h" />
+    <ClInclude Include="IAdips_Dlg.h" />
+    <ClInclude Include="IAdops_Dlg.h" />
+    <ClInclude Include="IAepsm_Dlg.h" />
+    <ClInclude Include="IAips_Dlg.h" />
+    <ClInclude Include="IDSavis_Dlg.h" />
+    <ClInclude Include="IDSidbvs_Dlg.h" />
+    <ClInclude Include="IDSvims_Dlg.h" />
+    <ClInclude Include="MyBaseSample.h" />
+    <ClInclude Include="MyTabBaseDlg.h" />
+    <ClInclude Include="MYWORK.h" />
+    <ClInclude Include="OScss_Dlg.h" />
+    <ClInclude Include="OSer_Dlg.h" />
+    <ClInclude Include="OSglsc_Dlg.h" />
+    <ClInclude Include="OSgs_Dlg.h" />
+    <ClInclude Include="OShmc_Dlg.h" />
+    <ClInclude Include="OSrto_Dlg.h" />
+    <ClInclude Include="OSucota_Dlg.h" />
+    <ClInclude Include="OSudf_Dlg.h" />
+    <ClInclude Include="OSwl_Dlg.h" />
+    <ClInclude Include="PopMessage_Dlg.h" />
+    <ClInclude Include="PRRfcofri_Dlg.h" />
+    <ClInclude Include="PRRfri_Dlg.h" />
+    <ClInclude Include="SCbsi_Dlg.h" />
+    <ClInclude Include="SCbsri_Dlg.h" />
+    <ClInclude Include="SCqss_Dlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TESTLIST_Dlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ASbad_Dlg.cpp" />
+    <ClCompile Include="AScd_Dlg.cpp" />
+    <ClCompile Include="ASeid_Dlg.cpp" />
+    <ClCompile Include="ASgc_Dlg.cpp" />
+    <ClCompile Include="AShbm_Dlg.cpp" />
+    <ClCompile Include="ASosa_Dlg.cpp" />
+    <ClCompile Include="ASpg_Dlg.cpp" />
+    <ClCompile Include="ASrdc_Dlg.cpp" />
+    <ClCompile Include="ASrdc_Dlgnew.cpp" />
+    <ClCompile Include="ASrdc_Dlgone.cpp" />
+    <ClCompile Include="ASrdc_Dlgtwo.cpp" />
+    <ClCompile Include="ASsadr_Dlg.cpp" />
+    <ClCompile Include="ASsa_Dlg.cpp" />
+    <ClCompile Include="ASser_Dlg.cpp" />
+    <ClCompile Include="ASsosa_Dlg.cpp" />
+    <ClCompile Include="ASssr_Dlg.cpp" />
+    <ClCompile Include="AStac_Dlg.cpp" />
+    <ClCompile Include="ATCMD.cpp" />
+    <ClCompile Include="ComPortEx.cpp" />
+    <ClCompile Include="ConfigTool.cpp" />
+    <ClCompile Include="ConfigToolDlg.cpp" />
+    <ClCompile Include="DCap_Dlg.cpp" />
+    <ClCompile Include="DCgc_Dlg.cpp" />
+    <ClCompile Include="DChrm_Dlg.cpp" />
+    <ClCompile Include="DCowh_Dlg.cpp" />
+    <ClCompile Include="DCpcs_Dlg.cpp" />
+    <ClCompile Include="DCpsdls_Dlg.cpp" />
+    <ClCompile Include="DCspw_Dlg.cpp" />
+    <ClCompile Include="DCta_Dlg.cpp" />
+    <ClCompile Include="DEBUGLOG_Dlg.cpp" />
+    <ClCompile Include="DevHound.cpp" />
+    <ClCompile Include="IAdips_Dlg.cpp" />
+    <ClCompile Include="IAdops_Dlg.cpp" />
+    <ClCompile Include="IAepsm_Dlg.cpp" />
+    <ClCompile Include="IAips_Dlg.cpp" />
+    <ClCompile Include="IDSavis_Dlg.cpp" />
+    <ClCompile Include="IDSidbvs_Dlg.cpp" />
+    <ClCompile Include="IDSvims_Dlg.cpp" />
+    <ClCompile Include="MdbControl.cpp" />
+    <ClCompile Include="MyBaseSample.cpp" />
+    <ClCompile Include="MyTabBaseDlg.cpp" />
+    <ClCompile Include="MYWORK.cpp" />
+    <ClCompile Include="OScss_Dlg.cpp" />
+    <ClCompile Include="OSer_Dlg.cpp" />
+    <ClCompile Include="OSglsc_Dlg.cpp" />
+    <ClCompile Include="OSgs_Dlg.cpp" />
+    <ClCompile Include="OShmc_Dlg.cpp" />
+    <ClCompile Include="OSrto_Dlg.cpp" />
+    <ClCompile Include="OSucota_Dlg.cpp" />
+    <ClCompile Include="OSudf_Dlg.cpp" />
+    <ClCompile Include="OSwl_Dlg.cpp" />
+    <ClCompile Include="PopMessage_Dlg.cpp" />
+    <ClCompile Include="PRRfcofri_Dlg.cpp" />
+    <ClCompile Include="PRRfri_Dlg.cpp" />
+    <ClCompile Include="SCbsi_Dlg.cpp" />
+    <ClCompile Include="SCbsri_Dlg.cpp" />
+    <ClCompile Include="SCqss_Dlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TESTLIST_Dlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ConfigTool.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="ConfigTool.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
